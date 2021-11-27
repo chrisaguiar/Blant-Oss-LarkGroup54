@@ -1,4 +1,12 @@
-Copy this respository into a Unix Terminal to play.
+Name of the Game: -name-
+
+Developed by: Ryan Buck & Christopher Aguiar
+
+Narrative: You woke up on a spaceship, you're one of the crew members. You need to explore the ship and most of the crew is dead. You need to find out what happened and figure out how to get off the ship.
+
+Instructions: 
+
+Once you get into the spaceship, go into the Cafeteria to start your journey.
 
 Basic Commands
 
@@ -18,4 +26,4 @@ Running Scripts
 
 If a file ends with .sh, you can run it, it's a script! Type ./(filename).sh to run it. This will allow you to learn things, pick up items, steal items, etc. 
 
-Once you're inside the main game, type cd Cafeteria to walk to the Cafeteria and get started!
+Good luck and have fun.
