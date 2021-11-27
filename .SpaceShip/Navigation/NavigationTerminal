@@ -1,0 +1,5 @@
+#!/bin/bash
+echo " "
+echo "ERROR: ENGINE FAILURE! ORBIT DISRUPTED! COLLISION COURSE WITH DEV/NULL/ IMMINENT! POINT OF NO RETURN IN: 15min!"
+echo "Autopilot cannot be reinstated until engines are repaired!"
+echo " "

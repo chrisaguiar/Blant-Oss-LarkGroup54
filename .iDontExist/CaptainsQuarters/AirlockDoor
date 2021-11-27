@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $key -eq 1 ];
+ then
+ echo "You turn the key into the lock. It opens the airlock and you walk in the room. You're inside the Captain's Quarters. "
+cp -rf ../../.cap CaptainsQuarters
+#mv .cap ../CaptainsQuarters > /dev/null 2>&1
+exec bash
+
+else
+echo "It looks like I'm going to need a key for this lock."
+fi
+

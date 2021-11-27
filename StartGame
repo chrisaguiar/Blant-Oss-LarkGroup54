@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -rf .SpaceShip
+cp -rf .iDontExist .SpaceShip
+echo "The universe has been reset."
+echo "You have woken up inside of the Cafeteria, remember your training."
+cd .SpaceShip/
+exec bash

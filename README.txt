@@ -1,4 +1,5 @@
-Name of the Game: -name-
+
+Name of the Game: Blant Oss
 
 Developed by: Ryan Buck & Christopher Aguiar
 
@@ -24,6 +25,7 @@ Use cd to move around. ls is simmilar to using your eyes to see things, cd is si
 
 Running Scripts
 
-If a file ends with .sh, you can run it, it's a script! Type ./(filename).sh to run it. This will allow you to learn things, pick up items, steal items, etc. 
+If a file has a different color, you can run it, it's a script! Type ./(filename) to run it. This will allow you to learn things, pick up items, steal items, investigate things further, etc. 
 
 Good luck and have fun.
+
