@@ -1,5 +1,3 @@
-# UnixLarkProject
-
 Copy this respository into a Unix Terminal to play.
 
 Basic Commands
