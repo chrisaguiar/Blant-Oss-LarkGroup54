@@ -1,0 +1,14 @@
+#!/bin/bash
+read  -p "Insert code to redirect power to Escape Pod: " password
+if [ "$password" == "p@ssword" ] > /dev/null 2>&1;
+ then
+if [ $redirect -eq 1 ] > /dev/null 2>&1;
+ then
+echo "Power successfully redirected!"
+export power=1
+exec bash
+
+ else
+echo "Incorrect password, please try again."
+fi
+fi
