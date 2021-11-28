@@ -1,11 +1,15 @@
 #!/bin/bash
-if [ $key -eq 1 ];
+if [ $key -eq 1 ] > /dev/null 2>&1;
  then
  echo "You turn the key into the lock. It opens the airlock and you walk in the room. You're inside the Captain's Quarters. "
-cp -rf ../../.cap CaptainsQuarters
-#mv .cap ../CaptainsQuarters > /dev/null 2>&1
+cp -rf ../../.files/.cap CaptainsRoom
+cd CaptainsRoom
+export key=2
 exec bash
-
+elif [ $key -eq 2 ] > /dev/null 2>&1;
+ then
+ echo "The door is already open."
+ 
 else
 echo "It looks like I'm going to need a key for this lock."
 fi
