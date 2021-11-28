@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $logCheck -eq 1 ];
+if [ $logCheck -eq 1 ] > /dev/null 2>&1;
  then
     echo " "
     echo "Remote Internal Vitals Emergency Tracker has detected 7 Emergencies!
