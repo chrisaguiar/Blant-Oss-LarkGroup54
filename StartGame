@@ -5,4 +5,8 @@ cp -rf .iDontExist .SpaceShip
 echo "The universe has been reset."
 echo "You have woken up inside of the Cafeteria, remember your training."
 cd .SpaceShip/
+export logCheck=5
+export key=3
+export power=3
+export redirect=3
 exec bash

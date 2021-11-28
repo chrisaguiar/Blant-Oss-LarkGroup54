@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo " "
+echo "This engine appears to be working fine. Had this engine been damaged, the ship would have lost all power. Still, one engine is not enough to fly the ship."
+echo " "
+

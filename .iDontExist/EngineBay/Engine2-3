@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo " "
+echo "Both engine 2 and engine 3 are heavily damaged. It isn’t obvious how this came to be, but you could probably repair them as the head engineer. Unfortunately, that would take months. You pray the escape pod is functioning."
+echo " "
+
+

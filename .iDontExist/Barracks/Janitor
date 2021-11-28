@@ -1,0 +1,23 @@
+#!/bin/bash
+if [ $janitor -eq 1 ] > /dev/null 2>&1;
+ then
+echo " "
+echo "Jake Sully is gone."
+echo " "
+else
+echo " "
+
+echo "As soon as he sees you, his eyes widen, and the color drain from his face. For an instant, you lock eyes with him, and you watch in slow motion abject terror turn into a steely determination."
+sleep 3
+echo " As you attempt to say something, he suddenly lunges across the room and drains the contents of a bottle into his mouth. As the horrible realization dawns on you, you barrel towards him and knock the pill bottle out of his hands."
+sleep 3
+echo " You were too late, as he chokes down the bottle's worth of pills and bites down hard on a large piece of hard PVC piping. You pounce on him, trying to wrestle pipe from his mouth, desperately trying to induce vomiting."
+sleep 3
+echo "Tears and sweat are streaming down his face, and his eyes dart around the room as if they were trying to escape. He can no longer try and force you off him as the convulsions racking his body grows more and more ferocious. His breathing becomes more erratic through his nose, and the muscles in his neck strain. His face is burning feverishly while at the same time ice cold. Foamy spit starts leaking for the sides of the pipe. In one furious motion, every muscle of the janitor contracts, smashing his head against the floor. His eyes roll back in his head, and his body's energy dissipates. You rip the pipe from his mouth, now with deep teeth marks, and try to induce vomiting, but you are too late."
+sleep 5
+echo " Jake Sully is gone."
+
+echo " "
+export janitor=1
+exec bash
+fi

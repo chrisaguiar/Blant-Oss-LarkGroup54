@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo " "
+echo "A key ring the janitor used to use. The gold key is for the captain's quarters."
+echo " "
+export key=1
+exec bash
