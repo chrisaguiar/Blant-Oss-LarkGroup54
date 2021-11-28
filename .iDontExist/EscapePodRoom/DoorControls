@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $power -eq 1 ] > /dev/null 2>&1;
+ then
+ echo " "
+ echo "You press OPEN on the door controls, the door opens and you walk inside of the Escape Pod."
+ echo " "
+cp -rf ../../.files/.esc EscapePod
+cd EscapePod
+exec bash
+else
+echo " "
+ echo "You press OPEN on the door controls, the door doesn't budge. You need to power the door controls. "
+echo " "
+fi

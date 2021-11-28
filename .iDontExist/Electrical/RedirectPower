@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Redirection of power to Escape Pod is ready. Awaiting Admin Authorization."
+export redirect=1
+exec bash
+
