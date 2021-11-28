@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo " "
+echo "In a locker, you find a flashlight. This could be useful for finding hidden things in the ship. Use ls -a to look around using the flashlight; it will reveal hidden files that start with "." Throughout the ship."
+echo " "
+
