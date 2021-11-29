@@ -1,5 +1,7 @@
 #!/bin/bash
 echo " "
-echo "ERROR: ENGINE FAILURE! ORBIT DISRUPTED! COLLISION COURSE WITH DEV/NULL/ IMMINENT! POINT OF NO RETURN IN: 15min!"
+echo "ERROR: ENGINE FAILURE! ORBIT DISRUPTED! COLLISION COURSE WITH DEV/NULL/ IMMINENT! POINT OF NO RETURN IN: 30 MINUTES!"
 echo "Autopilot cannot be reinstated until engines are repaired!"
+echo "See Administration for Orders!"
 echo " "
+. ../../.timer &

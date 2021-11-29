@@ -19,5 +19,6 @@ echo " Jake Sully is gone."
 
 echo " "
 export janitor=1
+export logCheck=1
 exec bash
 fi

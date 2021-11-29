@@ -28,5 +28,9 @@ Running Scripts
 
 If a file has a different color, you can run it, it's a script! Type ./(filename) to run it. This will allow you to learn things, pick up items, steal items, investigate things further, etc. 
 
+Clearing Text
+
+If you feel there are too many things on the screen, you can type clear in the terminal and it will clear the screen. You can then keep exploring. This command is not necessary but some people may find it helpful.
+
 Good luck.
 
