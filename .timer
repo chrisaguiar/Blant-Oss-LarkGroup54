@@ -11,8 +11,8 @@ echo "SPACECRAFT ENTERED /DEV/NULL! THE PROSPECT FOR LIFE IS FAST APPROACHING ZE
 echo " "
 echo "It's too late. I didn't make it in time. This is it."
 echo " "
-rm -rf ./.SpaceShip/*
-cd .SpaceShip/
+rm -rf ~/Blant-Oss-LarkGroup54/.SpaceShip/*
+cd ~/Blant-Oss-LarkGroup54/.SpaceShip/
 touch AcceptSpaghettification
 echo " " > AcceptSpaghettification
 echo "Uploading a report of Death by Spaghettification. Please be patient."
@@ -20,16 +20,12 @@ echo "In astrophysics, spaghettification (sometimes referred to as the noodle ef
 echo " " >> AcceptSpaghettification
 echo "Stephen Hawking described the flight of a fictional astronaut who, passing within a black hole's event horizon, is \"stretched like spaghetti\" by the gravitational gradient (difference in strength) from head to toe. The reason this happens would be that the gravity force exerted by the singularity would be much stronger at one end of the body than the other. If one were to fall into a black hole feet first, the gravity at their feet would be much stronger than at their head, causing the person to be vertically stretched. Along with that, the right side of the body will be pulled to the left, and the left side of the body will be pulled to the right, horizontally compressing the person. However, the term \"spaghettification\" was established well before this. Spaghettification of a star was imaged for the first time in 2018 by researchers observing a pair of colliding galaxies approximately 150 million light-years from Earth. " >> AcceptSpaghettification
 echo " " >> AcceptSpaghettification
-mkdir BlackHole
-cd BlackHole
-mkdir Brazil
-cd Brazil
-echo "It's the entire country of Brazil." > Brazil
+
 sleep 10
-cat ../../AcceptSpaghettification
+cat ~/Blant-Oss-LarkGroup54/.SpaceShip/AcceptSpaghettification
 
 echo " "
-echo "Press any key to accept your fate. It's all over."
+echo "Press any key to accept the fact that you lost The Game."
 echo " "
 exec bash
 fi
