@@ -3,7 +3,7 @@ SCRIPT_PATH="./.timer"
 rm -rf .SpaceShip
 cp -rf .iDontExist .SpaceShip
 echo "You just woke up, the alarms on the Ship are going off! The ship is approaching /DEV/NULL!! I have to escape! The whole ship will be consumed in only 15 minutes!"
-. .timer &
+#. .timer &
 cd .SpaceShip/
 export logCheck=5
 export key=3
