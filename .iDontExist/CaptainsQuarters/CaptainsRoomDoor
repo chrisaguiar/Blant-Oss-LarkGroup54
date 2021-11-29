@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ $key -eq 1 ] > /dev/null 2>&1;
  then
- echo "You turn the key into the lock. It opens the airlock and you walk in the room. You're inside the Captain's Quarters. "
+ echo "You turn the key into the lock. It opens the door and you walk in the room. You're inside the Captain's Quarters. "
 cp -rf ../../.files/.cap CaptainsRoom
 cd CaptainsRoom
 export key=2

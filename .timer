@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sleep 900  
+sleep 1800 
+if [ $swallow -eq 1 ];
+ then
+ exit 0 
+else
 echo " "
 echo " "
 echo "SPACECRAFT ENTERED /DEV/NULL! THE PROSPECT FOR LIFE IS FAST APPROACHING ZERO! ABANDON SHIP!"
@@ -28,3 +32,4 @@ echo " "
 echo "Press any key to accept your fate. It's all over."
 echo " "
 exec bash
+fi
