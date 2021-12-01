@@ -4,7 +4,7 @@ rm -rf .SpaceShip
 cp -rf .iDontExist .SpaceShip
 echo "You just woke up aboard the ship Gargantua-3. You have a pounding headache, and you hear alarms. Investigate your surroundings, time is of the essence."
 # . .timer &
-cd .SpaceShip/
+cd .SpaceShip/Cafeteria
 export logCheck=5
 export key=3
 export power=3
