@@ -2,7 +2,7 @@
 SCRIPT_PATH="./.timer"
 rm -rf .SpaceShip
 cp -rf .iDontExist .SpaceShip
-echo "You just woke up aboard the ship Gargantua-3. You have a pounding headache, and you hear alarms. Investigate your surroundings, time is of the essence."
+echo "You just woke up inside the cafeteria aboard the ship Gargantua-3. You have a pounding headache, and you hear alarms. Investigate your surroundings, time is of the essence."
 # . .timer &
 cd .SpaceShip/Cafeteria
 export logCheck=5
