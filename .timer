@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 1
+sleep 1800
 if [ $swallow -eq 1 ];
  then
  exit 0 
