@@ -8,7 +8,7 @@ Narrative: You woke up on a spaceship, you're one of the crew members. You need 
 Instructions: 
 
 Start the game by running the StartGame function by using ./StartGame
-Once you get into the spaceship, go into the Cafeteria to start your journey.
+You will start in the Cafeteria. Start exploring there and leave once you're finished exploring the Cafeteria.
 
 Basic Commands
 
